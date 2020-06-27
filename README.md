@@ -1,14 +1,19 @@
-                                                            ## Eyantra Internship
-                                                             ### Spatial Analysis 
-                                                              ### QGIS MAP SETUP
+## Eyantra Internship
+### Spatial Analysis 
+### QGIS MAP SETUP
 
 ***1)Start a new project***
 ***2)Include Layers*** 
 **i) India map layer with states**
+
 -Go to layers->add layer->add vector layer
+
 -Select automatic or utf-8 and select the shapefile(shp) from map-master->state->admin2.shp
+
 -Press on add and the file will be added as a layer.
+
 -Similarly follow the steps for DISTRICT map
+
 **ii)Adding markers** 
 -Add csv file that has latitude and longitude parameters
 -For this select Layer->add layer->add delimited text layer
