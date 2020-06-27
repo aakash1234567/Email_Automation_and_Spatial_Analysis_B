@@ -47,9 +47,12 @@
 -For the lab_inaug_chloromap the query looks
 
 -select s.ST_NM,s.geometry,count(d.lab_inaugurated)
-***from elsi_college_database_sheet as d, Admin2 as s
-where s.ST_NM=d.state and d.lab_inaugurated=1
-group by d.state;***
+
+***from elsi_college_database_sheet as d, Admin2 as s***
+
+***where s.ST_NM=d.state and d.lab_inaugurated=1***
+
+***group by d.state;***
 
 -In this we have used elsi_college_database_sheet and Admin2(state file) 
 
