@@ -82,3 +82,35 @@
 -For showing the number in the same map
 
 -Right click on the layer select properties->labels select the column value as count and press on ok and apply.
+
+### Clustering Algorithm part
+
+**1)Getting score according to the multipying Factor**
+***(According to the Importance of a particular Attribute)***
+
+- Open the spatial anaylsis application.
+
+-From side bar select the scoring option which will lead to it's page.
+
+-Select the Multipying factor from 0.0-1.0 of every attribute.
+
+-Clicking on submit which will generate the scores on which the cluster algorithm will work.
+
+**2)Getting potential areas/regions/colleges to conduct workshop**
+***(By searching the attributes districts-states-scores)***
+
+- Inside spatial anaylsis application in sidebar select searching option which will take to it's page.
+
+- Enter the particular attributes eg.) state-maharashtra, district-pune, score-2 which will give all the region/areas/colleges where we can conduct the workshop.
+
+- Here we can select single as well as multiple attributes for searching so for eg.) if we select only score as 2 which will search all the regions/areas/colleges which are 
+  less than equal to 2.
+
+- After searching it will show the details in a tabular format
+
+**3)Clustering Algorithm on Map**
+***(Here Map will show all the potential regions where we can conduct the workshop according to the previous data it will predict where to conduct the workshop in future)***
+
+- Inside the application, in sidebar go to the clustered Map part which will lead to it's page.
+
+- Here in this page we will be able to see a thermal type Map based on the areas to counduct the workshops.
